@@ -2,7 +2,6 @@ int		ft_atoi_base(const char *str, int str_base)
 {
 	int i;
 	int n;
-	int len;
 	int result;
 
 	i = 0;
