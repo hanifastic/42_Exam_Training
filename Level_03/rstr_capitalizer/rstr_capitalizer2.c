@@ -23,8 +23,7 @@ int main(int ac, char **av)
         while(i < ac)
         {
             rstr_capitalizer(av[i]);
-            write(1,"\n",1);
-            i += 1;
+            i++;
         }
     }
     write(1,"\n",1);
