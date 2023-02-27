@@ -12,9 +12,9 @@ int main(int ac, char **av)
             j = 0;
             while(av[2][j])
             {
-                if(av[1][i] == av[2][j] && control[av[1][i]] != 1)
+                if(av[1][i] == av[2][j] && control[(int)av[1][i]] != 1)
                 {
-                    control[av[1][i]] = 1;
+                    control[(int)av[1][i]] = 1;
                     write(1,&av[1][i],1);
                 }
                 j++;
