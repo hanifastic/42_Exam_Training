@@ -35,3 +35,13 @@ char *ft_itoa(int nbr)
     }
     return(arg);
 }
+
+
+/*
+int main()
+{
+	int a=-123141;
+	char *ab=ft_itoa(a);
+	printf("%s",ab);
+}
+*/
