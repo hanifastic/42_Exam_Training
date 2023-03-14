@@ -18,7 +18,7 @@ int ft_atoi_base(const char *str, int base)
         if(!((str[i] >= '0' && str[i] <= '9') ||
          (str[i] >= 'a' && str[i] <= 'f') ||
           (str[i] >= 'A' && str[i] <= 'F')))
-            retur(0);
+            return(0);
         if(str[i] >= '0' && str[i] <= '9')
             digit = str[i] - '0';
         else if(str[i] >= 'a' && str[i] <= 'f')
