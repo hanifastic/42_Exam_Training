@@ -1,7 +1,7 @@
 
 int max(int *tab, unsigned int len)
 {
-    if(len == 0)
+    if(len == 0 || !tab)
         return(0);
     int i = 0;
     int result = tab[0];
