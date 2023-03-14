@@ -15,7 +15,7 @@ int ft_atoi_base(const char *str, int base)
 
     while(str[i])
     {
-        if(!((str[i] >= '0' && str[i] <= '9' ||) ||
+        if(!((str[i] >= '0' && str[i] <= '9') ||
          (str[i] >= 'a' && str[i] <= 'f') ||
           (str[i] >= 'A' && str[i] <= 'F')))
             retur(0);
