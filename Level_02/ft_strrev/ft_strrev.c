@@ -1,6 +1,7 @@
 char *ft_strrev(char *str)
 {
-	int i = 0,len = 0;
+	int i = 0
+	int len = 0;
 	char tmp;
 	while(str[len])
 		len++;
