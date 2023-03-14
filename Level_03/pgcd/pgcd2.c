@@ -10,13 +10,13 @@ int main(int ac, char **av)
     {
         if(n1 <= 0 || n2 <= 0)
             return(0);
-        while(n1 != 0)
+        while(n2 != 0)
         {
-            temporary = n1;
-            n1 = n1 % n2;
-            n2 = temporary;
+            temporary = n2;
+            n2 = n1 % n2;
+            n1 = temporary;
         }
-        printf("%d\n",n2);
+        printf("%d\n",n1);
     }
     else
         printf("\n");
